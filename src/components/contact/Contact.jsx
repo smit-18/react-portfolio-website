@@ -8,11 +8,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_o4831kt", "template_mgas39i", form.current, {
-        publicKey: "MPy9CScLm816NGZK9",
-      })
-      e.target.reset()
+    emailjs.sendForm("service_o4831kt", "template_mgas39i", form.current, {
+      publicKey: "MPy9CScLm816NGZK9",
+    });
+    e.target.reset();
   };
 
   return (
@@ -49,25 +48,27 @@ const Contact = () => {
               <span className="contact__card-data">+1 (224)-319-6483</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=2243196483&text=Hello!"
                 className="contact__button"
+                target="_blank"
+                rel="noreferrer"
               >
-                Write me
+                Text me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-linkedin-square contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">smit_vekaria</span>
 
               <a
-                href="https://m.me/crypticalcoder123"
+                href="https://www.linkedin.com/in/smit-vekaria/"
                 className="contact__button"
               >
-                Write me
+                Connect with me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -75,7 +76,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Send me a message</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -85,6 +86,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -95,17 +97,19 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write your message"
+                required
               ></textarea>
             </div>
 
