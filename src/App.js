@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Hobbies from "./components/hobbies/Hobbies";
 import Qualification from "./components/qualification/Qualification";
+import Recommendations from "./components/recommendations/Recommendations";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Hobbies />
         <Qualification />
+        <Recommendations />
       </main>
     </>
   );
