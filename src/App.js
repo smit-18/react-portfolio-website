@@ -8,6 +8,7 @@ import Hobbies from "./components/hobbies/Hobbies";
 import Qualification from "./components/qualification/Qualification";
 import Recommendations from "./components/recommendations/Recommendations";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Qualification />
         <Recommendations />
         <Contact />
+        <Footer />
       </main>
     </>
   );
