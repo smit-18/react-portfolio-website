@@ -33,8 +33,9 @@ const Header = () => {
             </li>
 
             <li className="nav__item">
-              <a href="#services" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+              <a href="#qualification" className="nav__link">
+                <i className="uil uil-briefcase-alt nav__icon"></i>
+                Qualification
               </a>
             </li>
 
@@ -51,7 +52,10 @@ const Header = () => {
             </li>
           </ul>
 
-          <i className="uil uil-times nav__close" onClick={() => setToggleMenu(false)}></i>
+          <i
+            className="uil uil-times nav__close"
+            onClick={() => setToggleMenu(false)}
+          ></i>
         </div>
 
         <div className="nav__toggle" onClick={() => setToggleMenu(true)}>
