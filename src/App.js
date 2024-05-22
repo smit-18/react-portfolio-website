@@ -7,6 +7,7 @@ import Skills from "./components/skills/Skills";
 import Hobbies from "./components/hobbies/Hobbies";
 import Qualification from "./components/qualification/Qualification";
 import Recommendations from "./components/recommendations/Recommendations";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Hobbies />
         <Qualification />
         <Recommendations />
+        <Contact />
       </main>
     </>
   );
