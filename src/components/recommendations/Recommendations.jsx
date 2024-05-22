@@ -13,7 +13,7 @@ import { Pagination } from "swiper/modules";
 
 const Recommendations = () => {
   return (
-    <section className="recommendations container section">
+    <section className="recommendations container section" id="recommendations">
       <h2 className="section__title">My peers say</h2>
       <span className="section__subtitle">Recommendations</span>
 

@@ -34,7 +34,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
           <a
             href="https://github.com/smit-18/"
@@ -42,7 +42,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </a>
         </div>
 
