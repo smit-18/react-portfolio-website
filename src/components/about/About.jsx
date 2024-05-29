@@ -21,12 +21,17 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Currently a Master's student at Cornell University with experience
+            in software development, user interface design and interested in
+            being part of teams where I can drive impact!
           </p>
 
-          <a target="_blank" href={Resume} className="button button--flex" rel="noreferrer">
+          <a
+            target="_blank"
+            href={Resume}
+            className="button button--flex"
+            rel="noreferrer"
+          >
             View Resume
             <svg
               className="button__icon"
