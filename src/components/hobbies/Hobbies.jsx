@@ -16,9 +16,9 @@ const Hobbies = () => {
       <div className="hobbies__container container grid">
         <div className="hobbies__content">
           <div>
-            <i className="uil uil-web-grid hobbies__icon"></i>
+            <i className="uil uil-glass-martini hobbies__icon"></i>
             <h3 className="hobbies__title">
-              Product <br /> Designer
+              Wine <br /> Enthusiast
             </h3>
           </div>
 
@@ -86,9 +86,9 @@ const Hobbies = () => {
 
         <div className="hobbies__content">
           <div>
-            <i className="uil uil-arrow hobbies__icon"></i>
+            <i className="uil uil-map hobbies__icon"></i>
             <h3 className="hobbies__title">
-              UI/UX <br /> Designer
+              Seasoned <br /> Traveller
             </h3>
           </div>
 
@@ -156,9 +156,9 @@ const Hobbies = () => {
 
         <div className="hobbies__content">
           <div>
-            <i className="uil uil-edit hobbies__icon"></i>
+            <i className="uil uil-monitor hobbies__icon"></i>
             <h3 className="hobbies__title">
-              Visual <br /> Designer
+              Avid <br /> Gamer
             </h3>
           </div>
 

@@ -96,10 +96,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Software Engineer Intern</h3>
                 <span className="qualification__subtitle">
-                  Quicko - India
+                  Clinch Inc. - New York, USA
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Jan 2023 - May 2023
+                  <i className="uil uil-calendar-alt"></i> Jul 2024 - Aug 2024
                 </div>
               </div>
 
@@ -117,13 +117,30 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Web Developement Intern</h3>
+                <h3 className="qualification__title">Full Stack Developer Intern</h3>
+                <span className="qualification__subtitle">
+                  Quicko - India
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Jan 2023 - May 2023
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Web Developer Intern</h3>
                 <span className="qualification__subtitle">
                   Sieger Creations - India
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Jun 2022 - Aug 2022
                 </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>

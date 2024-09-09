@@ -8,37 +8,37 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
-    url: "" 
+    title: "Horizon - Financial SaaS Platform",
+    category: "fullstack",
+    url: "https://banking-app-gamma-azure.vercel.app/" 
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
-    url: ""
+    title: "Django Real-time Dashboard",
+    category: "backend",
+    url: "https://django-dashboard-app-af9b974ec7a6.herokuapp.com/"
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "design",
-    url: ""
+    title: "Apple iPhone 15 Website",
+    category: "frontend",
+    url: "https://main.dpzuorwbyo6c1.amplifyapp.com/"
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
-    category: "app",
-    url: ""
+    title: "Notable - Advanced Notes App",
+    category: "frontend",
+    url: "https://main.d2nmz0pv10n1v1.amplifyapp.com/"
   },
   {
     id: 5,
     image: Work5,
-    title: "Web design",
-    category: "web",
-    url: ""
+    title: "Reddit Clone",
+    category: "fullstack",
+    url: "https://reddit-clone-gray.vercel.app/"
   },
 ];
 
@@ -47,12 +47,12 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "fullstack",
   },
   {
-    name: "app",
+    name: "backend",
   },
   {
-    name: "design",
+    name: "frontend",
   },
 ];

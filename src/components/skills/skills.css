@@ -12,6 +12,7 @@
 }
 
 .skills__title {
+  color: var(--title-color-dark);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   text-align: center;
@@ -33,15 +34,16 @@
 .skills__data {
   display: flex;
   column-gap: 0.5rem;
+  align-items: center;
 }
 
 .skills .bx-badge-check {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--title-color);
 }
 
 .skills__name {
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   font-weight: var(--font-medium);
   line-height: 18px;
 }
