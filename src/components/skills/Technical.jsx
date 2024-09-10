@@ -7,12 +7,12 @@ const Technical = () => {
       <h3 className="skills__title">Technical</h3>
 
       <div className="skills__box">
-        {Data.map((skillGroup) => {
+        {Data.map((skillGroup, idx) => {
           return (
-            <div className="skills__group">
+            <div key={idx} className="skills__group">
               {skillGroup.map((skill) => {
                 return (
-                  <div className="skills__data">
+                  <div key={skill.name} className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
                       <h3 className="skills__name">{skill.name}</h3>
